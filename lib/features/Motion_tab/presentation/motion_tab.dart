@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:iconsax_plus/iconsax_plus.dart';
 import 'package:motion_tab_bar/MotionTabBarController.dart';
 import 'package:motion_tab_bar/motiontabbar.dart';
 import 'package:sandak/core/utilies/app_colors.dart';
@@ -56,8 +57,16 @@ class _MotionTapState extends State<MotionTap>
             _tabController.index = value;
           });
         },
-        icons: [Icons.home, Icons.book, Icons.monitor, Icons.settings],
-        textStyle: TextStyle(color: AppColors.kLightColor),
+        tabIconSelectedSize: 24,
+        tabIconSize: 24,
+        useSafeArea: true,
+        icons: const [
+          IconsaxPlusBold.home_1,
+          IconsaxPlusBold.book_1,
+          IconsaxPlusBold.monitor,
+          IconsaxPlusBold.setting_2,
+        ],
+        textStyle: const TextStyle(color: AppColors.kLightColor),
       ),
     );
   }
