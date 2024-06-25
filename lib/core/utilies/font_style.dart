@@ -22,4 +22,11 @@ abstract class Styles {
     fontSize: 14,
     fontWeight: FontWeight.w600,
   );
+  static const textStyle8 = TextStyle(
+      fontSize: 8, fontWeight: FontWeight.w600, color: AppColors.kGray);
+  static const textStyle12 = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w500,
+    color: AppColors.kGray,
+  );
 }

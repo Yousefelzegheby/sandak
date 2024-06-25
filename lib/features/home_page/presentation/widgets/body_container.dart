@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:sandak/core/utilies/app_colors.dart';
+import 'package:sandak/features/home_page/presentation/widgets/home_body2.dart';
 
 class BodyContainer extends StatelessWidget {
-  const BodyContainer({super.key, required this.child});
-  final Widget? child;
+  const BodyContainer({
+    super.key,
+  });
+
   @override
   Widget build(BuildContext context) {
     return Positioned(
@@ -25,7 +28,7 @@ class BodyContainer extends StatelessWidget {
             ),
           ],
         ),
-        child: child,
+        child: const HomeBody2(),
       ),
     );
   }

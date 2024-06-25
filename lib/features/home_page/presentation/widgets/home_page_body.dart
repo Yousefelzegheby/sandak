@@ -5,6 +5,7 @@ import 'package:sandak/core/utilies/app_colors.dart';
 import 'package:sandak/core/utilies/font_style.dart';
 import 'package:sandak/core/widgets/custom_searchbar.dart';
 import 'package:sandak/features/home_page/presentation/widgets/body_container.dart';
+import 'package:sandak/features/home_page/presentation/widgets/line_home.dart';
 
 class HomePageBody extends StatelessWidget {
   const HomePageBody({super.key});
@@ -13,19 +14,10 @@ class HomePageBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: MediaQuery.of(context).size.height,
-      child: Stack(
+      child: const Stack(
         children: [
           CustomSearchbar(),
-          BodyContainer(
-            child: Column(
-              children: [
-                Text(
-                  'Home',
-                  style: Styles.textStyle32.copyWith(color: AppColors.kPrimary),
-                )
-              ],
-            ),
-          ),
+          BodyContainer(),
         ],
       ),
     );
