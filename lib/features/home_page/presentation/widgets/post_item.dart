@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sandak/core/utilies/app_colors.dart';
-import 'package:sandak/core/utilies/font_style.dart';
-import 'package:sandak/core/utilies/image_path.dart';
 import 'package:sandak/features/home_page/presentation/widgets/post_item_body.dart';
 import 'package:sandak/features/home_page/presentation/widgets/title_post_item.dart';
 

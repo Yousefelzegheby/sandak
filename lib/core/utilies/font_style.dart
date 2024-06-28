@@ -29,4 +29,18 @@ abstract class Styles {
     fontWeight: FontWeight.w500,
     color: AppColors.kGray,
   );
+  static const textStyle22 = TextStyle(
+    color: Color(0xFF263238),
+    fontSize: 22,
+    fontWeight: FontWeight.w700,
+    height: 0,
+    letterSpacing: 1.10,
+  );
+  static const textStyle10 = TextStyle(
+    color: Colors.white,
+    fontSize: 10,
+    fontWeight: FontWeight.w700,
+    height: 0,
+    letterSpacing: 0.50,
+  );
 }

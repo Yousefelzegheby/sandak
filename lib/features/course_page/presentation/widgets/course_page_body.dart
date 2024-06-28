@@ -1,11 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:sandak/core/widgets/custom_searchbar.dart';
-import 'package:sandak/features/home_page/presentation/widgets/body_container.dart';
+import 'package:sandak/features/course_page/presentation/widgets/body2.dart';
 
-class HomePageBody extends StatelessWidget {
-  const HomePageBody({super.key});
+class CoursePageBody extends StatelessWidget {
+  const CoursePageBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +16,9 @@ class HomePageBody extends StatelessWidget {
         SizedBox(
           height: 36,
         ),
-        Expanded(child: BodyContainer()),
+        Expanded(
+          child: Body2(),
+        ),
       ],
     );
   }

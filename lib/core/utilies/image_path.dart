@@ -10,4 +10,5 @@ class ImagePath {
   static const comment = "assets/images/comment.svg";
   static const love = "assets/images/love.svg";
   static const share = "assets/images/share.svg";
+  static const lictureImage = "assets/images/lecture.png";
 }
